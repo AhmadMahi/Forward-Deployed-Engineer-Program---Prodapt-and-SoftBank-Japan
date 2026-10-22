@@ -163,10 +163,11 @@ def build_deck(spec, path):
         rect(slide, x, y, w, h, CODE_BG)
         lines = code.strip("\n").split("\n")
         longest = max(len(l) for l in lines)
-        by_width = (w - 0.4) * 72 / (0.6 * max(longest, 1))        # Courier glyph is 0.6 em wide
+        by_width = 0.88 * (w - 0.4) * 72 / (0.6 * max(longest, 1))  # Courier glyph is 0.6 em; keep a margin
         by_height = (h - 0.3) * 72 / (1.2 * max(len(lines), 1))
         size = max(7, min(14, by_width, by_height))
-        text(slide, x + 0.2, y + 0.15, w - 0.4, h - 0.3, lines, size, CODE_FG, font="Courier New")
+        tb = text(slide, x + 0.2, y + 0.15, w - 0.4, h - 0.3, lines, size, CODE_FG, font="Courier New")
+        tb.text_frame.word_wrap = False                               # code lines never wrap
 
     def table(slide, header, rows, top=1.2):
         nrows, ncols = len(rows) + 1, len(header)
