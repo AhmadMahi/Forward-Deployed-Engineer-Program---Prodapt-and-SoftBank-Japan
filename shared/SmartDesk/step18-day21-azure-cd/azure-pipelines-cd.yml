@@ -1,0 +1,55 @@
+# SmartDesk continuous delivery to Azure Container Apps (Day 21).
+# Secrets live in Key Vault, linked to the variable group "smartdesk-kv". The app reads them with managed identity.
+trigger: { branches: { include: [main] } }
+pool: { vmImage: ubuntu-latest }
+
+variables:
+  - group: smartdesk-kv                     # linked to Azure Key Vault, values are secret
+  - name: image
+    value: smartdeskacr.azurecr.io/smartdesk-api:$(Build.BuildId)
+
+stages:
+  - stage: Build
+    jobs:
+      - job: build_push
+        steps:
+          - task: Docker@2
+            inputs:
+              containerRegistry: smartdesk-acr-connection      # service connection, no passwords in YAML
+              repository: smartdesk-api
+              command: buildAndPush
+              tags: $(Build.BuildId)
+
+  - stage: DeployDev
+    dependsOn: Build
+    jobs:
+      - deployment: dev
+        environment: smartdesk-dev
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: AzureContainerApps@1
+                  inputs:
+                    azureSubscription: smartdesk-azure-connection
+                    containerAppName: smartdesk-api-dev
+                    resourceGroup: rg-smartdesk-training
+                    imageToDeploy: $(image)
+                - script: curl --fail https://smartdesk-api-dev.example.azurecontainerapps.io/health
+                  displayName: Smoke test
+
+  - stage: DeployProd
+    dependsOn: DeployDev
+    jobs:
+      - deployment: prod
+        environment: smartdesk-prod                # approval check configured on this environment
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: AzureContainerApps@1
+                  inputs:
+                    azureSubscription: smartdesk-azure-connection
+                    containerAppName: smartdesk-api
+                    resourceGroup: rg-smartdesk-training
+                    imageToDeploy: $(image)

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "FAQ-01",
+    "title": "Refunds",
+    "text": "You can request a refund for an unused data pack within 14 days of purchase. Refunds go back to the original payment method within 7 working days."
+  },
+  {
+    "id": "FAQ-02",
+    "title": "Double charges",
+    "text": "If you were charged twice, send us the invoice number. We reverse duplicate charges within 3 working days."
+  },
+  {
+    "id": "FAQ-03",
+    "title": "Roaming charges",
+    "text": "Roaming is charged per day while your phone uses a partner network abroad. Turn off data roaming in settings to avoid charges."
+  },
+  {
+    "id": "FAQ-04",
+    "title": "Bill due date",
+    "text": "Bills are issued on the 1st of each month and are due by the 20th. Late payment adds a fixed fee."
+  },
+  {
+    "id": "FAQ-05",
+    "title": "No signal",
+    "text": "If you have no signal, restart your phone and check the outage map. If there is no outage, reset network settings."
+  },
+  {
+    "id": "FAQ-06",
+    "title": "Slow mobile data",
+    "text": "Mobile data can slow down at busy times near stations. If speeds stay low all day, check your monthly data allowance."
+  },
+  {
+    "id": "FAQ-07",
+    "title": "5G coverage",
+    "text": "5G is available in major city centres. Your phone falls back to 4G where 5G is weak, for example inside some buildings."
+  },
+  {
+    "id": "FAQ-08",
+    "title": "Dropped calls",
+    "text": "Calls can drop in tunnels and on trains. Turn on Wi-Fi calling for better indoor coverage."
+  },
+  {
+    "id": "FAQ-09",
+    "title": "Home router red light",
+    "text": "A red light on the home router means no connection. Unplug it for 30 seconds, then plug it back in."
+  },
+  {
+    "id": "FAQ-10",
+    "title": "Password reset",
+    "text": "Reset your password from the login screen. The reset link expires after 30 minutes."
+  },
+  {
+    "id": "FAQ-11",
+    "title": "Login problems",
+    "text": "If you cannot log in after a reset, clear the app cache and use the new password. Accounts lock after five failed attempts for 15 minutes."
+  },
+  {
+    "id": "FAQ-12",
+    "title": "SIM blocked abroad",
+    "text": "A SIM can be blocked after unusual activity abroad. Verify your identity in the app or at a store to unblock it the same day."
+  },
+  {
+    "id": "FAQ-13",
+    "title": "SMS codes",
+    "text": "If SMS codes do not arrive, check that your number can receive messages and that you are not blocking short codes."
+  },
+  {
+    "id": "FAQ-14",
+    "title": "Change email",
+    "text": "Change the email address on your account under Profile, then confirm the new address from the link we send."
+  },
+  {
+    "id": "FAQ-15",
+    "title": "Family plan",
+    "text": "A family plan covers up to five lines on one bill. Each extra line gets its own data allowance."
+  },
+  {
+    "id": "FAQ-16",
+    "title": "Plan upgrade",
+    "text": "You can upgrade your plan at any time. The new price applies from the next billing cycle."
+  },
+  {
+    "id": "FAQ-17",
+    "title": "Store hours",
+    "text": "Most stores open 10:00 to 20:00 every day, including Sundays. Check the store finder for local hours."
+  },
+  {
+    "id": "FAQ-18",
+    "title": "Data pack not active",
+    "text": "Data packs activate within 15 minutes. If a pack is not active after an hour, contact support for a refund or a manual activation."
+  },
+  {
+    "id": "FAQ-19",
+    "title": "Number transfer",
+    "text": "To keep your number when you join us, request a transfer code from your old provider. The transfer takes up to 2 days."
+  },
+  {
+    "id": "FAQ-20",
+    "title": "Complaints",
+    "text": "If support does not solve your issue, ask for a team lead. Formal complaints get a reply within 10 working days."
+  }
+]

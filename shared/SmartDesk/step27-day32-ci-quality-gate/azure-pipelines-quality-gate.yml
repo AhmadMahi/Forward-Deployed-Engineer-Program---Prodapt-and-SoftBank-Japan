@@ -1,0 +1,7 @@
+# Runs the offline evaluation and the quality gate on every pull request (Day 32).
+steps:
+  - script: python run_eval.py --offline --out metrics.json
+    displayName: Evaluate on the golden set
+    env: { OFFLINE: "1" }
+  - script: python quality_gate.py metrics.json baseline.json
+    displayName: LLM quality gate (accuracy, tool-call fidelity, cost per query, p95 latency)

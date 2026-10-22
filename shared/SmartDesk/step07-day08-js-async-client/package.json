@@ -1,0 +1,7 @@
+{
+  "name": "smartdesk-js-client",
+  "version": "0.7.0",
+  "type": "module",
+  "private": true,
+  "scripts": { "start": "node client.js", "test": "node --test" }
+}
