@@ -629,12 +629,18 @@ if ONLINE:
 WORD = re.compile(r"[a-z0-9]+")
 LAST_USAGE = {"input_tokens": 0, "output_tokens": 0}
 
+_ENC = []
+
 def count_tokens(text):
-    try:
-        import tiktoken
-        return len(tiktoken.get_encoding("o200k_base").encode(text))
-    except Exception:
-        return max(1, round(len(text) / 4))          # rough rule: about 4 characters per token
+    if not _ENC:
+        try:
+            import tiktoken
+            _ENC.append(tiktoken.get_encoding("o200k_base"))
+        except Exception:
+            _ENC.append(None)                        # no tiktoken or no download: use the estimate
+    if _ENC[0] is not None:
+        return len(_ENC[0].encode(text))
+    return max(1, round(len(text) / 4))              # rough rule: about 4 characters per token
 
 def _words(t):
     # crude normalisation so "expires" matches "expire"
