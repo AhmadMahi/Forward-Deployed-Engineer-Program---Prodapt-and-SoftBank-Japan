@@ -1,0 +1,14 @@
+{
+  "name": "telcodesk-notifier",
+  "version": "0.9.0",
+  "description": "Legacy SMS and email notification stub for TelcoDesk",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
