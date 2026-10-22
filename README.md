@@ -163,7 +163,7 @@ Wed 28 Oct 2026 | Week 1 | Basics | v4 action: Condense + new
 
 Thu 29 Oct 2026 | Week 1 | Basics | v4 action: Reuse + update
 
-
+[Deck](Day04-Architecture-and-MongoDB/Day04_Deck_Architecture_and_MongoDB.pptx) | [Pre-read](Day04-Architecture-and-MongoDB/Day04_PreRead_Architecture_and_MongoDB.pdf) | [Post-read](Day04-Architecture-and-MongoDB/Day04_PostRead_Architecture_and_MongoDB_Recap_and_Beyond.pdf) | [Notebook](Day04-Architecture-and-MongoDB/Day04_Architecture_and_MongoDB_Colab.ipynb) | [App prompts](Day04-Architecture-and-MongoDB/Day04_App_Build_Prompts.md) | [Hands-on](Day04-Architecture-and-MongoDB/Day04_HandsOn_Problem_Statements.pdf) | [Workbook](Day04-Architecture-and-MongoDB/Day04_Workbook_Interactive.docx) | [Quiz](Day04-Architecture-and-MongoDB/Day04_Quiz_on_Day03_OOP_and_OpenAI_Codex_Walkthrough.txt) | [Hotel lab](Day04-Architecture-and-MongoDB/Day04_Hotel_Lab.md)
 
 ### Day 05. API Fundamentals and FastAPI Core (Assessment)
 
@@ -181,7 +181,7 @@ Mon 02 Nov 2026 | Week 2 | Basics | v4 action: Merge
 
 Tue 03 Nov 2026 | Week 2 | Basics | v4 action: Merge
 
-
+[Deck](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_Deck_FastAPI_Advanced_Security_and_MongoDB.pptx) | [Pre-read](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_PreRead_FastAPI_Advanced_Security_and_MongoDB.pdf) | [Post-read](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_PostRead_FastAPI_Advanced_Security_and_MongoDB_Recap_and_Beyond.pdf) | [Notebook](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_FastAPI_Advanced_Security_and_MongoDB_Colab.ipynb) | [App prompts](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_App_Build_Prompts.md) | [Hands-on](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_HandsOn_Problem_Statements.pdf) | [Workbook](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_Workbook_Interactive.docx) | [Quiz](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_Quiz_on_Day06_SQLAlchemy_and_API_Docs.txt) | [Hotel lab](Day07-FastAPI-Advanced-Security-and-MongoDB/Day07_Hotel_Lab.md)
 
 ### Day 08. JavaScript Fundamentals and Async JavaScript
 
@@ -193,13 +193,13 @@ Wed 04 Nov 2026 | Week 2 | Basics | v4 action: Merge
 
 Thu 05 Nov 2026 | Week 2 | Basics | v4 action: Reuse + update
 
-
+[Deck](Day09-Nodejs-and-Express/Day09_Deck_Nodejs_and_Express.pptx) | [Pre-read](Day09-Nodejs-and-Express/Day09_PreRead_Nodejs_and_Express.pdf) | [Post-read](Day09-Nodejs-and-Express/Day09_PostRead_Nodejs_and_Express_Recap_and_Beyond.pdf) | [Notebook](Day09-Nodejs-and-Express/Day09_Nodejs_and_Express_Colab.ipynb) | [App prompts](Day09-Nodejs-and-Express/Day09_App_Build_Prompts.md) | [Hands-on](Day09-Nodejs-and-Express/Day09_HandsOn_Problem_Statements.pdf) | [Workbook](Day09-Nodejs-and-Express/Day09_Workbook_Interactive.docx) | [Quiz](Day09-Nodejs-and-Express/Day09_Quiz_on_Day08_JavaScript_and_Async_JavaScript.txt) | [Hotel lab](Day09-Nodejs-and-Express/Day09_Hotel_Lab.md)
 
 ### Day 10. React Basics (Assessment)
 
 Fri 06 Nov 2026 | Week 2 | Basics | v4 action: Reuse + update
 
-
+[Deck](Day10-React-Basics/Day10_Deck_React_Basics.pptx) | [Pre-read](Day10-React-Basics/Day10_PreRead_React_Basics.pdf) | [Post-read](Day10-React-Basics/Day10_PostRead_React_Basics_Recap_and_Beyond.pdf) | [Notebook](Day10-React-Basics/Day10_React_Basics_Colab.ipynb) | [App prompts](Day10-React-Basics/Day10_App_Build_Prompts.md) | [Hands-on](Day10-React-Basics/Day10_HandsOn_Problem_Statements.pdf) | [Workbook](Day10-React-Basics/Day10_Workbook_Interactive.docx) | [Quiz](Day10-React-Basics/Day10_Quiz_on_Day09_Nodejs_and_Express.txt) | [Hotel lab](Day10-React-Basics/Day10_Hotel_Lab.md)
 
 ### Mon 09 Nov 2026. Holiday: Deepavali
 
@@ -207,7 +207,7 @@ Fri 06 Nov 2026 | Week 2 | Basics | v4 action: Reuse + update
 
 Tue 10 Nov 2026 | Week 3 | Basics | v4 action: Reuse + update
 
-
+[Deck](Day11-React-UI-Logic-and-Full-Stack/Day11_Deck_React_UI_Logic_and_Full_Stack.pptx) | [Pre-read](Day11-React-UI-Logic-and-Full-Stack/Day11_PreRead_React_UI_Logic_and_Full_Stack.pdf) | [Post-read](Day11-React-UI-Logic-and-Full-Stack/Day11_PostRead_React_UI_Logic_and_Full_Stack_Recap_and_Beyond.pdf) | [Notebook](Day11-React-UI-Logic-and-Full-Stack/Day11_React_UI_Logic_and_Full_Stack_Colab.ipynb) | [App prompts](Day11-React-UI-Logic-and-Full-Stack/Day11_App_Build_Prompts.md) | [Hands-on](Day11-React-UI-Logic-and-Full-Stack/Day11_HandsOn_Problem_Statements.pdf) | [Workbook](Day11-React-UI-Logic-and-Full-Stack/Day11_Workbook_Interactive.docx) | [Quiz](Day11-React-UI-Logic-and-Full-Stack/Day11_Quiz_on_Day10_React_Basics.txt) | [Hotel lab](Day11-React-UI-Logic-and-Full-Stack/Day11_Hotel_Lab.md)
 
 ### Day 12. GenAI 1: Introduction to GenAI, LLMs and Tokens
 
@@ -231,25 +231,25 @@ Fri 13 Nov 2026 | Week 3 | FDE Mindset | v4 action: Placeholder
 
 Mon 16 Nov 2026 | Week 4 | Basics | v4 action: Reuse + update
 
-
+[Deck](Day15-Testing-and-Data-Engineering-Intro/Day15_Deck_Testing_and_Data_Engineering_Intro.pptx) | [Pre-read](Day15-Testing-and-Data-Engineering-Intro/Day15_PreRead_Testing_and_Data_Engineering_Intro.pdf) | [Post-read](Day15-Testing-and-Data-Engineering-Intro/Day15_PostRead_Testing_and_Data_Engineering_Intro_Recap_and_Beyond.pdf) | [Notebook](Day15-Testing-and-Data-Engineering-Intro/Day15_Testing_and_Data_Engineering_Intro_Colab.ipynb) | [App prompts](Day15-Testing-and-Data-Engineering-Intro/Day15_App_Build_Prompts.md) | [Hands-on](Day15-Testing-and-Data-Engineering-Intro/Day15_HandsOn_Problem_Statements.pdf) | [Workbook](Day15-Testing-and-Data-Engineering-Intro/Day15_Workbook_Interactive.docx) | [Quiz](Day15-Testing-and-Data-Engineering-Intro/Day15_Quiz_on_Day13_Prompt_Engineering.txt) | [Hotel lab](Day15-Testing-and-Data-Engineering-Intro/Day15_Hotel_Lab.md)
 
 ### Day 16. Data Pipelines, Spark and PySpark
 
 Tue 17 Nov 2026 | Week 4 | Basics | v4 action: Merge
 
-
+[Deck](Day16-Data-Pipelines-Spark-and-PySpark/Day16_Deck_Data_Pipelines_Spark_and_PySpark.pptx) | [Pre-read](Day16-Data-Pipelines-Spark-and-PySpark/Day16_PreRead_Data_Pipelines_Spark_and_PySpark.pdf) | [Post-read](Day16-Data-Pipelines-Spark-and-PySpark/Day16_PostRead_Data_Pipelines_Spark_and_PySpark_Recap_and_Beyond.pdf) | [Notebook](Day16-Data-Pipelines-Spark-and-PySpark/Day16_Data_Pipelines_Spark_and_PySpark_Colab.ipynb) | [App prompts](Day16-Data-Pipelines-Spark-and-PySpark/Day16_App_Build_Prompts.md) | [Hands-on](Day16-Data-Pipelines-Spark-and-PySpark/Day16_HandsOn_Problem_Statements.pdf) | [Workbook](Day16-Data-Pipelines-Spark-and-PySpark/Day16_Workbook_Interactive.docx) | [Quiz](Day16-Data-Pipelines-Spark-and-PySpark/Day16_Quiz_on_Day15_Testing_and_Data_Engineering_Intro.txt) | [Hotel lab](Day16-Data-Pipelines-Spark-and-PySpark/Day16_Hotel_Lab.md)
 
 ### Day 17. DevOps and Cloud Fundamentals (Assessment)
 
 Wed 18 Nov 2026 | Week 4 | Basics | v4 action: Reuse + update
 
-
+[Deck](Day17-DevOps-and-Cloud-Fundamentals/Day17_Deck_DevOps_and_Cloud_Fundamentals.pptx) | [Pre-read](Day17-DevOps-and-Cloud-Fundamentals/Day17_PreRead_DevOps_and_Cloud_Fundamentals.pdf) | [Post-read](Day17-DevOps-and-Cloud-Fundamentals/Day17_PostRead_DevOps_and_Cloud_Fundamentals_Recap_and_Beyond.pdf) | [Notebook](Day17-DevOps-and-Cloud-Fundamentals/Day17_DevOps_and_Cloud_Fundamentals_Colab.ipynb) | [App prompts](Day17-DevOps-and-Cloud-Fundamentals/Day17_App_Build_Prompts.md) | [Hands-on](Day17-DevOps-and-Cloud-Fundamentals/Day17_HandsOn_Problem_Statements.pdf) | [Workbook](Day17-DevOps-and-Cloud-Fundamentals/Day17_Workbook_Interactive.docx) | [Quiz](Day17-DevOps-and-Cloud-Fundamentals/Day17_Quiz_on_Day16_Data_Pipelines_Spark_and_PySpark.txt) | [Hotel lab](Day17-DevOps-and-Cloud-Fundamentals/Day17_Hotel_Lab.md)
 
 ### Day 18. GenAI 3: Context Engineering and RAG Foundations
 
 Thu 19 Nov 2026 | Week 4 | GenAI | v4 action: Reuse + update
 
-[Deck](Day18-Context-Engineering-and-RAG/Day18_Deck_Context_Engineering_and_RAG.pptx) | [Pre-read](Day18-Context-Engineering-and-RAG/Day18_PreRead_Context_Engineering_and_RAG.pdf) | [Post-read](Day18-Context-Engineering-and-RAG/Day18_PostRead_Context_Engineering_and_RAG_Recap_and_Beyond.pdf) | [Notebook](Day18-Context-Engineering-and-RAG/Day18_Context_Engineering_and_RAG_Colab.ipynb) | [App prompts](Day18-Context-Engineering-and-RAG/Day18_App_Build_Prompts.md) | [Hands-on](Day18-Context-Engineering-and-RAG/Day18_HandsOn_Problem_Statements.pdf) | [Workbook](Day18-Context-Engineering-and-RAG/Day18_Workbook_Interactive.docx) | [Quiz](Day18-Context-Engineering-and-RAG/Day18_Quiz_on_Day17_DevOps_and_Cloud_Fundamentals.txt)
+[Deck](Day18-Context-Engineering-and-RAG/Day18_Deck_Context_Engineering_and_RAG.pptx) | [Pre-read](Day18-Context-Engineering-and-RAG/Day18_PreRead_Context_Engineering_and_RAG.pdf) | [Post-read](Day18-Context-Engineering-and-RAG/Day18_PostRead_Context_Engineering_and_RAG_Recap_and_Beyond.pdf) | [Notebook](Day18-Context-Engineering-and-RAG/Day18_Context_Engineering_and_RAG_Colab.ipynb) | [App prompts](Day18-Context-Engineering-and-RAG/Day18_App_Build_Prompts.md) | [Hands-on](Day18-Context-Engineering-and-RAG/Day18_HandsOn_Problem_Statements.pdf) | [Workbook](Day18-Context-Engineering-and-RAG/Day18_Workbook_Interactive.docx) | [Quiz](Day18-Context-Engineering-and-RAG/Day18_Quiz_on_Day17_DevOps_and_Cloud_Fundamentals.txt) | [Hotel lab](Day18-Context-Engineering-and-RAG/Day18_Hotel_Lab.md)
 
 ### Day 19. FDE Mindset Session 3
 
@@ -261,25 +261,25 @@ Fri 20 Nov 2026 | Week 4 | FDE Mindset | v4 action: Placeholder
 
 Mon 23 Nov 2026 | Week 5 | Basics | v4 action: Merge
 
-
+[Deck](Day20-Git-CI-CD-and-Docker/Day20_Deck_Git_CI_CD_and_Docker.pptx) | [Pre-read](Day20-Git-CI-CD-and-Docker/Day20_PreRead_Git_CI_CD_and_Docker.pdf) | [Post-read](Day20-Git-CI-CD-and-Docker/Day20_PostRead_Git_CI_CD_and_Docker_Recap_and_Beyond.pdf) | [Notebook](Day20-Git-CI-CD-and-Docker/Day20_Git_CI_CD_and_Docker_Colab.ipynb) | [App prompts](Day20-Git-CI-CD-and-Docker/Day20_App_Build_Prompts.md) | [Hands-on](Day20-Git-CI-CD-and-Docker/Day20_HandsOn_Problem_Statements.pdf) | [Workbook](Day20-Git-CI-CD-and-Docker/Day20_Workbook_Interactive.docx) | [Quiz](Day20-Git-CI-CD-and-Docker/Day20_Quiz_on_Day18_Context_Engineering_and_RAG.txt) | [Hotel lab](Day20-Git-CI-CD-and-Docker/Day20_Hotel_Lab.md)
 
 ### Day 21. Azure Deployment and Continuous Delivery
 
 Tue 24 Nov 2026 | Week 5 | Basics | v4 action: Reuse + update
 
-
+[Deck](Day21-Azure-Deployment-and-CD/Day21_Deck_Azure_Deployment_and_CD.pptx) | [Pre-read](Day21-Azure-Deployment-and-CD/Day21_PreRead_Azure_Deployment_and_CD.pdf) | [Post-read](Day21-Azure-Deployment-and-CD/Day21_PostRead_Azure_Deployment_and_CD_Recap_and_Beyond.pdf) | [Notebook](Day21-Azure-Deployment-and-CD/Day21_Azure_Deployment_and_CD_Colab.ipynb) | [App prompts](Day21-Azure-Deployment-and-CD/Day21_App_Build_Prompts.md) | [Hands-on](Day21-Azure-Deployment-and-CD/Day21_HandsOn_Problem_Statements.pdf) | [Workbook](Day21-Azure-Deployment-and-CD/Day21_Workbook_Interactive.docx) | [Quiz](Day21-Azure-Deployment-and-CD/Day21_Quiz_on_Day20_Git_CI_CD_and_Docker.txt) | [Hotel lab](Day21-Azure-Deployment-and-CD/Day21_Hotel_Lab.md)
 
 ### Day 22. GenAI 4: Embeddings, Vector DBs and the RAG Application (Senior FDE interaction)
 
 Wed 25 Nov 2026 | Week 5 | GenAI | v4 action: Reuse + update
 
-
+[Deck](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_Deck_Embeddings_Vector_DBs_and_RAG_App.pptx) | [Pre-read](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_PreRead_Embeddings_Vector_DBs_and_RAG_App.pdf) | [Post-read](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_PostRead_Embeddings_Vector_DBs_and_RAG_App_Recap_and_Beyond.pdf) | [Notebook](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_Embeddings_Vector_DBs_and_RAG_App_Colab.ipynb) | [App prompts](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_App_Build_Prompts.md) | [Hands-on](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_HandsOn_Problem_Statements.pdf) | [Workbook](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_Workbook_Interactive.docx) | [Quiz](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_Quiz_on_Day21_Azure_Deployment_and_CD.txt) | [Hotel lab](Day22-Embeddings-Vector-DBs-and-RAG-App/Day22_Hotel_Lab.md)
 
 ### Day 23. GenAI 5: Industry Use Cases + Security for the Agentic World (SME) (SME session)
 
 Thu 26 Nov 2026 | Week 5 | GenAI | v4 action: New
 
-
+[Deck](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_Deck_Industry_Use_Cases_and_Agentic_Security_SME.pptx) | [Pre-read](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_PreRead_Industry_Use_Cases_and_Agentic_Security_SME.pdf) | [Post-read](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_PostRead_Industry_Use_Cases_and_Agentic_Security_SME_Recap_and_Beyond.pdf) | [Notebook](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_Industry_Use_Cases_and_Agentic_Security_SME_Colab.ipynb) | [App prompts](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_App_Build_Prompts.md) | [Hands-on](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_HandsOn_Problem_Statements.pdf) | [Workbook](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_Workbook_Interactive.docx) | [Quiz](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_Quiz_on_Day22_Embeddings_Vector_DBs_and_RAG_App.txt) | [Hotel lab](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_Hotel_Lab.md) | [Day23_Industry_Use_Cases_OnePager.pdf](Day23-Industry-Use-Cases-and-Agentic-Security-SME/Day23_Industry_Use_Cases_OnePager.pdf)
 
 ### Day 24. FDE Mindset Session 4
 
@@ -291,25 +291,25 @@ Fri 27 Nov 2026 | Week 5 | FDE Mindset | v4 action: Placeholder
 
 Mon 30 Nov 2026 | Week 6 | GenAI | v4 action: New
 
-[Deck](Day25-SLMs-and-Token-Optimisation/Day25_Deck_SLMs_and_Token_Optimisation.pptx) | [Pre-read](Day25-SLMs-and-Token-Optimisation/Day25_PreRead_SLMs_and_Token_Optimisation.pdf) | [Post-read](Day25-SLMs-and-Token-Optimisation/Day25_PostRead_SLMs_and_Token_Optimisation_Recap_and_Beyond.pdf) | [Notebook](Day25-SLMs-and-Token-Optimisation/Day25_SLMs_and_Token_Optimisation_Colab.ipynb) | [Cost calculator notebook](Day25-SLMs-and-Token-Optimisation/Day25_Token_Cost_Calculator_Colab.ipynb) | [Hands-on](Day25-SLMs-and-Token-Optimisation/Day25_HandsOn_Problem_Statements.pdf) | [Workbook](Day25-SLMs-and-Token-Optimisation/Day25_Workbook_Interactive.docx)
+[Deck](Day25-SLMs-and-Token-Optimisation/Day25_Deck_SLMs_and_Token_Optimisation.pptx) | [Pre-read](Day25-SLMs-and-Token-Optimisation/Day25_PreRead_SLMs_and_Token_Optimisation.pdf) | [Post-read](Day25-SLMs-and-Token-Optimisation/Day25_PostRead_SLMs_and_Token_Optimisation_Recap_and_Beyond.pdf) | [Notebook](Day25-SLMs-and-Token-Optimisation/Day25_SLMs_and_Token_Optimisation_Colab.ipynb) | [Cost calculator notebook](Day25-SLMs-and-Token-Optimisation/Day25_Token_Cost_Calculator_Colab.ipynb) | [App prompts](Day25-SLMs-and-Token-Optimisation/Day25_App_Build_Prompts.md) | [Hands-on](Day25-SLMs-and-Token-Optimisation/Day25_HandsOn_Problem_Statements.pdf) | [Workbook](Day25-SLMs-and-Token-Optimisation/Day25_Workbook_Interactive.docx) | [Quiz](Day25-SLMs-and-Token-Optimisation/Day25_Quiz_on_Day23_Industry_Use_Cases_and_Agentic_Security_SME.txt) | [Hotel lab](Day25-SLMs-and-Token-Optimisation/Day25_Hotel_Lab.md)
 
 ### Day 26. GenAI 7: LLM Orchestration, Tool Calling and LangGraph (1:1 feedback)
 
 Tue 01 Dec 2026 | Week 6 | GenAI | v4 action: Merge
 
-[Deck](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_Deck_LLM_Orchestration_Tools_and_LangGraph.pptx) | [Pre-read](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_PreRead_LLM_Orchestration_Tools_and_LangGraph.pdf) | [Post-read](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_PostRead_LLM_Orchestration_Tools_and_LangGraph_Recap_and_Beyond.pdf) | [Notebook](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_LLM_Orchestration_Tools_and_LangGraph_Colab.ipynb) | [Hands-on](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_HandsOn_Problem_Statements.pdf) | [Workbook](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_Workbook_Interactive.docx)
+[Deck](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_Deck_LLM_Orchestration_Tools_and_LangGraph.pptx) | [Pre-read](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_PreRead_LLM_Orchestration_Tools_and_LangGraph.pdf) | [Post-read](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_PostRead_LLM_Orchestration_Tools_and_LangGraph_Recap_and_Beyond.pdf) | [Notebook](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_LLM_Orchestration_Tools_and_LangGraph_Colab.ipynb) | [App prompts](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_App_Build_Prompts.md) | [Hands-on](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_HandsOn_Problem_Statements.pdf) | [Workbook](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_Workbook_Interactive.docx) | [Quiz](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_Quiz_on_Day25_SLMs_and_Token_Optimisation.txt) | [Hotel lab](Day26-LLM-Orchestration-Tools-and-LangGraph/Day26_Hotel_Lab.md)
 
 ### Day 27. GenAI 8: Agentic AI and Agentic RAG (Assessment)
 
 Wed 02 Dec 2026 | Week 6 | GenAI | v4 action: Reuse + update
 
-
+[Deck](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_Deck_Agentic_AI_Agentic_RAG_and_Memory.pptx) | [Pre-read](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_PreRead_Agentic_AI_Agentic_RAG_and_Memory.pdf) | [Post-read](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_PostRead_Agentic_AI_Agentic_RAG_and_Memory_Recap_and_Beyond.pdf) | [Notebook](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_Agentic_AI_Agentic_RAG_and_Memory_Colab.ipynb) | [App prompts](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_App_Build_Prompts.md) | [Hands-on](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_HandsOn_Problem_Statements.pdf) | [Workbook](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_Workbook_Interactive.docx) | [Quiz](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_Quiz_on_Day26_LLM_Orchestration_Tools_and_LangGraph.txt) | [Hotel lab](Day27-Agentic-AI-Agentic-RAG-and-Memory/Day27_Hotel_Lab.md)
 
 ### Day 28. GenAI 9: Agent Protocols (MCP, A2A) and Advanced Agents (Senior FDE interaction)
 
 Thu 03 Dec 2026 | Week 6 | GenAI | v4 action: Reuse + update
 
-
+[Deck](Day28-Agent-Protocols-MCP-and-A2A/Day28_Deck_Agent_Protocols_MCP_and_A2A.pptx) | [Pre-read](Day28-Agent-Protocols-MCP-and-A2A/Day28_PreRead_Agent_Protocols_MCP_and_A2A.pdf) | [Post-read](Day28-Agent-Protocols-MCP-and-A2A/Day28_PostRead_Agent_Protocols_MCP_and_A2A_Recap_and_Beyond.pdf) | [Notebook](Day28-Agent-Protocols-MCP-and-A2A/Day28_Agent_Protocols_MCP_and_A2A_Colab.ipynb) | [App prompts](Day28-Agent-Protocols-MCP-and-A2A/Day28_App_Build_Prompts.md) | [Hands-on](Day28-Agent-Protocols-MCP-and-A2A/Day28_HandsOn_Problem_Statements.pdf) | [Workbook](Day28-Agent-Protocols-MCP-and-A2A/Day28_Workbook_Interactive.docx) | [Quiz](Day28-Agent-Protocols-MCP-and-A2A/Day28_Quiz_on_Day27_Agentic_AI_Agentic_RAG_and_Memory.txt) | [Hotel lab](Day28-Agent-Protocols-MCP-and-A2A/Day28_Hotel_Lab.md)
 
 ### Day 29. FDE Mindset Session 5
 
@@ -321,37 +321,37 @@ Fri 04 Dec 2026 | Week 6 | FDE Mindset | v4 action: Placeholder
 
 Mon 07 Dec 2026 | Week 7 | GenAI | v4 action: Reuse + update
 
-[Deck](Day30-LLM-Security-and-Guardrails/Day30_Deck_LLM_Security_and_Guardrails.pptx) | [Pre-read](Day30-LLM-Security-and-Guardrails/Day30_PreRead_LLM_Security_and_Guardrails.pdf) | [Post-read](Day30-LLM-Security-and-Guardrails/Day30_PostRead_LLM_Security_and_Guardrails_Recap_and_Beyond.pdf) | [Notebook](Day30-LLM-Security-and-Guardrails/Day30_LLM_Security_and_Guardrails_Colab.ipynb) | [Hands-on](Day30-LLM-Security-and-Guardrails/Day30_HandsOn_Problem_Statements.pdf) | [Workbook](Day30-LLM-Security-and-Guardrails/Day30_Workbook_Interactive.docx) | [Quiz](Day30-LLM-Security-and-Guardrails/Day30_Quiz_on_Day28_Agent_Protocols_MCP_and_A2A.txt)
+[Deck](Day30-LLM-Security-and-Guardrails/Day30_Deck_LLM_Security_and_Guardrails.pptx) | [Pre-read](Day30-LLM-Security-and-Guardrails/Day30_PreRead_LLM_Security_and_Guardrails.pdf) | [Post-read](Day30-LLM-Security-and-Guardrails/Day30_PostRead_LLM_Security_and_Guardrails_Recap_and_Beyond.pdf) | [Notebook](Day30-LLM-Security-and-Guardrails/Day30_LLM_Security_and_Guardrails_Colab.ipynb) | [App prompts](Day30-LLM-Security-and-Guardrails/Day30_App_Build_Prompts.md) | [Hands-on](Day30-LLM-Security-and-Guardrails/Day30_HandsOn_Problem_Statements.pdf) | [Workbook](Day30-LLM-Security-and-Guardrails/Day30_Workbook_Interactive.docx) | [Quiz](Day30-LLM-Security-and-Guardrails/Day30_Quiz_on_Day28_Agent_Protocols_MCP_and_A2A.txt) | [Hotel lab](Day30-LLM-Security-and-Guardrails/Day30_Hotel_Lab.md)
 
 ### Day 31. GenAI 11: GenAI System Evaluation
 
 Tue 08 Dec 2026 | Week 7 | GenAI | v4 action: Reuse + update
 
-
+[Deck](Day31-GenAI-System-Evaluation/Day31_Deck_GenAI_System_Evaluation.pptx) | [Pre-read](Day31-GenAI-System-Evaluation/Day31_PreRead_GenAI_System_Evaluation.pdf) | [Post-read](Day31-GenAI-System-Evaluation/Day31_PostRead_GenAI_System_Evaluation_Recap_and_Beyond.pdf) | [Notebook](Day31-GenAI-System-Evaluation/Day31_GenAI_System_Evaluation_Colab.ipynb) | [App prompts](Day31-GenAI-System-Evaluation/Day31_App_Build_Prompts.md) | [Hands-on](Day31-GenAI-System-Evaluation/Day31_HandsOn_Problem_Statements.pdf) | [Workbook](Day31-GenAI-System-Evaluation/Day31_Workbook_Interactive.docx) | [Quiz](Day31-GenAI-System-Evaluation/Day31_Quiz_on_Day30_LLM_Security_and_Guardrails.txt) | [Hotel lab](Day31-GenAI-System-Evaluation/Day31_Hotel_Lab.md)
 
 ### Day 32. GenAI 12: LLM Evaluation and Quality Gates (1:1 feedback)
 
 Wed 09 Dec 2026 | Week 7 | GenAI | v4 action: Reuse + update
 
-
+[Deck](Day32-LLM-Evaluation-and-Quality-Gates/Day32_Deck_LLM_Evaluation_and_Quality_Gates.pptx) | [Pre-read](Day32-LLM-Evaluation-and-Quality-Gates/Day32_PreRead_LLM_Evaluation_and_Quality_Gates.pdf) | [Post-read](Day32-LLM-Evaluation-and-Quality-Gates/Day32_PostRead_LLM_Evaluation_and_Quality_Gates_Recap_and_Beyond.pdf) | [Notebook](Day32-LLM-Evaluation-and-Quality-Gates/Day32_LLM_Evaluation_and_Quality_Gates_Colab.ipynb) | [App prompts](Day32-LLM-Evaluation-and-Quality-Gates/Day32_App_Build_Prompts.md) | [Hands-on](Day32-LLM-Evaluation-and-Quality-Gates/Day32_HandsOn_Problem_Statements.pdf) | [Workbook](Day32-LLM-Evaluation-and-Quality-Gates/Day32_Workbook_Interactive.docx) | [Quiz](Day32-LLM-Evaluation-and-Quality-Gates/Day32_Quiz_on_Day31_GenAI_System_Evaluation.txt) | [Hotel lab](Day32-LLM-Evaluation-and-Quality-Gates/Day32_Hotel_Lab.md)
 
 ### Day 33. GenAI 13: LLMOps (Assessment)
 
 Thu 10 Dec 2026 | Week 7 | GenAI | v4 action: Merge
 
-[Deck](Day33-LLMOps/Day33_Deck_LLMOps.pptx) | [Pre-read](Day33-LLMOps/Day33_PreRead_LLMOps.pdf) | [Post-read](Day33-LLMOps/Day33_PostRead_LLMOps_Recap_and_Beyond.pdf) | [Notebook](Day33-LLMOps/Day33_LLMOps_Colab.ipynb) | [Hands-on](Day33-LLMOps/Day33_HandsOn_Problem_Statements.pdf) | [Workbook](Day33-LLMOps/Day33_Workbook_Interactive.docx)
+[Deck](Day33-LLMOps/Day33_Deck_LLMOps.pptx) | [Pre-read](Day33-LLMOps/Day33_PreRead_LLMOps.pdf) | [Post-read](Day33-LLMOps/Day33_PostRead_LLMOps_Recap_and_Beyond.pdf) | [Notebook](Day33-LLMOps/Day33_LLMOps_Colab.ipynb) | [App prompts](Day33-LLMOps/Day33_App_Build_Prompts.md) | [Hands-on](Day33-LLMOps/Day33_HandsOn_Problem_Statements.pdf) | [Workbook](Day33-LLMOps/Day33_Workbook_Interactive.docx) | [Quiz](Day33-LLMOps/Day33_Quiz_on_Day32_LLM_Evaluation_and_Quality_Gates.txt) | [Hotel lab](Day33-LLMOps/Day33_Hotel_Lab.md)
 
 ### Day 34. GenAI 14: LLM Deployment and Lifecycle
 
 Fri 11 Dec 2026 | Week 7 | GenAI | v4 action: Reuse + update
 
-
+[Deck](Day34-LLM-Deployment-and-Lifecycle/Day34_Deck_LLM_Deployment_and_Lifecycle.pptx) | [Pre-read](Day34-LLM-Deployment-and-Lifecycle/Day34_PreRead_LLM_Deployment_and_Lifecycle.pdf) | [Post-read](Day34-LLM-Deployment-and-Lifecycle/Day34_PostRead_LLM_Deployment_and_Lifecycle_Recap_and_Beyond.pdf) | [Notebook](Day34-LLM-Deployment-and-Lifecycle/Day34_LLM_Deployment_and_Lifecycle_Colab.ipynb) | [App prompts](Day34-LLM-Deployment-and-Lifecycle/Day34_App_Build_Prompts.md) | [Hands-on](Day34-LLM-Deployment-and-Lifecycle/Day34_HandsOn_Problem_Statements.pdf) | [Workbook](Day34-LLM-Deployment-and-Lifecycle/Day34_Workbook_Interactive.docx) | [Quiz](Day34-LLM-Deployment-and-Lifecycle/Day34_Quiz_on_Day33_LLMOps.txt) | [Hotel lab](Day34-LLM-Deployment-and-Lifecycle/Day34_Hotel_Lab.md)
 
 ### Day 35. GenAI 15: Observability, Drift and Optimisation
 
 Mon 14 Dec 2026 | Week 8 | GenAI | v4 action: Merge
 
-
+[Deck](Day35-Observability-Drift-and-Optimisation/Day35_Deck_Observability_Drift_and_Optimisation.pptx) | [Pre-read](Day35-Observability-Drift-and-Optimisation/Day35_PreRead_Observability_Drift_and_Optimisation.pdf) | [Post-read](Day35-Observability-Drift-and-Optimisation/Day35_PostRead_Observability_Drift_and_Optimisation_Recap_and_Beyond.pdf) | [Notebook](Day35-Observability-Drift-and-Optimisation/Day35_Observability_Drift_and_Optimisation_Colab.ipynb) | [App prompts](Day35-Observability-Drift-and-Optimisation/Day35_App_Build_Prompts.md) | [Hands-on](Day35-Observability-Drift-and-Optimisation/Day35_HandsOn_Problem_Statements.pdf) | [Workbook](Day35-Observability-Drift-and-Optimisation/Day35_Workbook_Interactive.docx) | [Quiz](Day35-Observability-Drift-and-Optimisation/Day35_Quiz_on_Day34_LLM_Deployment_and_Lifecycle.txt) | [Hotel lab](Day35-Observability-Drift-and-Optimisation/Day35_Hotel_Lab.md)
 
 ### Days 36 to 40. Capstone project (Demo day 21 Dec)
 

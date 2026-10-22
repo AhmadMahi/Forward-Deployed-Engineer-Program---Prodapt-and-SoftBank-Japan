@@ -30,5 +30,5 @@ Dependency hygiene (Day 3), OWASP API Top 10 (Day 7), vulnerability reports v1 t
 - SmartDesk running project across all technical days ([shared/SmartDesk](../shared/SmartDesk/README.md)).
 - Capstone moved to 15 to 21 Dec 2026, with the new Project 06 LegacyLift and v4 baseline requirements.
 - OpenAI only: OpenAI Codex replaces mixed AI-assistant references; notebook default model now comes from `LLM_MODEL` (the v1 default model was replaced).
-- Quizzes re-paired to the previous training day (FDE days and the holiday are skipped).
+- Quizzes re-paired to the previous training day (FDE days and the holiday are skipped). Answer positions rebalanced across A to D (v1 answers were almost all B).
 - New tools: `tools/check_notebooks.py`, `tools/check_links.py`, and the build scripts in `tools/build/` that generate each day's deck, PDFs, workbook and notebook from one spec file.
