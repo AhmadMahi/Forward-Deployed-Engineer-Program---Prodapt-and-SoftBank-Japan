@@ -1,0 +1,30 @@
+# SmartDesk CI (Day 17). Runs on every pull request to main.
+trigger:
+  branches: { include: [main] }
+pr:
+  branches: { include: [main] }
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  pythonVersion: "3.12"
+
+stages:
+  - stage: Quality
+    jobs:
+      - job: lint_and_test
+        steps:
+          - task: UsePythonVersion@0
+            inputs: { versionSpec: "$(pythonVersion)" }
+          - script: pip install fastapi httpx pytest ruff bandit
+            displayName: Install tools
+          - script: ruff check .
+            displayName: Lint (ruff)
+          - script: bandit -r app -ll
+            displayName: SAST (bandit, medium and above)
+          - script: pytest -q --junitxml=test-results.xml
+            displayName: Unit tests
+          - task: PublishTestResults@2
+            condition: always()
+            inputs: { testResultsFiles: test-results.xml }

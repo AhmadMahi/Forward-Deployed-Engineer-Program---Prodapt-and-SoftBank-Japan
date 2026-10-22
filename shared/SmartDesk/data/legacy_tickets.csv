@@ -1,0 +1,9 @@
+Ticket ID,Customer Name,Type,Prio,Status,Description,Opened
+101, Aiko Tanaka ,NETWORK,High,Open,No signal in Setagaya,26/10/2026
+102,Rahul Mehta,billing,HIGH,open,Charged twice for October,26/10/2026
+103,Kenji Sato,Account,med,OPEN,Cannot log in after reset,2026-10-26
+104,,network,low,closed,Router red light,25/10/2026
+105,Priya Nair,Billing,High,Open,,27/10/2026
+102,Rahul Mehta,billing,HIGH,open,Charged twice for October,26/10/2026
+106,Mei Kobayashi,other,Low,open,Store hours on Sunday?,not a date
+107,Sanjay Iyer,network,High,Open,5G drops to 4G in office,27/10/2026

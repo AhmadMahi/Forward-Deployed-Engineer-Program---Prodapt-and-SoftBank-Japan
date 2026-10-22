@@ -1,0 +1,5 @@
+# Add the SmartDesk MCP server to OpenAI Codex (example ~/.codex/config.toml entry).
+# Keep secrets out of this file. Use env_vars to pass names of variables, not values.
+[mcp_servers.smartdesk]
+command = "python"
+args = ["shared/SmartDesk/step24-day28-mcp-server-sandbox/mcp_server.py"]

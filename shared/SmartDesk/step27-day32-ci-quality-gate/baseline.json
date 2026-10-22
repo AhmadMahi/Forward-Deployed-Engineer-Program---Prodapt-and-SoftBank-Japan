@@ -1,0 +1,11 @@
+{
+  "min": {
+    "accuracy": 0.8,
+    "tool_call_fidelity": 1.0
+  },
+  "max": {
+    "cost_per_query": 0.0025,
+    "p95_latency_ms": 1500
+  },
+  "note": "cost_per_query uses placeholder prices"
+}

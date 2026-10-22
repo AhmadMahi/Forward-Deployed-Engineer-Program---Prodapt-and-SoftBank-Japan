@@ -1,0 +1,16 @@
+# Example Azure Container Apps settings for the gateway (Day 34). Secrets are Key Vault references.
+properties:
+  configuration:
+    ingress: { external: true, targetPort: 8000 }
+    secrets:
+      - name: admin-token
+        keyVaultUrl: https://smartdesk-kv.vault.azure.net/secrets/admin-token
+        identity: system
+  template:
+    containers:
+      - name: gateway
+        image: smartdeskacr.azurecr.io/smartdesk-gateway:2026.12.2
+        env:
+          - { name: CANARY_PERCENT, value: "10" }
+          - { name: ADMIN_TOKEN, secretRef: admin-token }
+    scale: { minReplicas: 1, maxReplicas: 5 }

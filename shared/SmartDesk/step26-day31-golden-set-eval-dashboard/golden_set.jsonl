@@ -1,0 +1,12 @@
+{"id": "G01", "category": "billing", "question": "How long do I have to ask for a refund on a data pack?", "source": "FAQ-01", "must_include": ["14 days"]}
+{"id": "G02", "category": "billing", "question": "I was charged twice, what happens?", "source": "FAQ-02", "must_include": ["3 working days"]}
+{"id": "G03", "category": "billing", "question": "When is my bill due?", "source": "FAQ-04", "must_include": ["20th"]}
+{"id": "G04", "category": "billing", "question": "Why do I pay extra when travelling abroad?", "source": "FAQ-03", "must_include": ["roaming"]}
+{"id": "G05", "category": "network", "question": "My router shows a red light", "source": "FAQ-09", "must_include": ["30 seconds"]}
+{"id": "G06", "category": "network", "question": "Calls drop on the train", "source": "FAQ-08", "must_include": ["Wi-Fi calling"]}
+{"id": "G07", "category": "network", "question": "Is 5G available inside buildings?", "source": "FAQ-07", "must_include": ["4G"]}
+{"id": "G08", "category": "account", "question": "How long is the password reset link valid?", "source": "FAQ-10", "must_include": ["30 minutes"]}
+{"id": "G09", "category": "account", "question": "My SIM was blocked abroad", "source": "FAQ-12", "must_include": ["same day"]}
+{"id": "G10", "category": "account", "question": "SMS codes are not arriving", "source": "FAQ-13", "must_include": ["short codes"]}
+{"id": "G11", "category": "other", "question": "Are stores open on Sunday?", "source": "FAQ-17", "must_include": ["Sundays"]}
+{"id": "G12", "category": "other", "question": "What is the weather in Osaka tomorrow?", "source": null, "must_include": ["don't know"]}

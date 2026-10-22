@@ -8,10 +8,11 @@ Prepared by **Ahmed** | [linkedin.com/in/ahmed-al-imaad](https://www.linkedin.co
 
 ## How to use these prompts
 
-1. Run the prompts in order with your AI coding assistant, one per working session.
-2. Review every file it produces. You must be able to explain all of it on demo day.
-3. Commit after each prompt with a clear message, through a pull request.
+1. Run the prompts in order with OpenAI Codex in VS Code (program API key, approved models only), one per working session. Ask Codex for a plan first, then build in small steps.
+2. Review every diff before you accept it. You must be able to explain all of it on demo day.
+3. Commit after each prompt with a clear message, through a reviewed pull request. Keep CI green.
 4. Record in your README which parts were generated and how you checked them.
+5. Never paste API keys, customer data or credentials into a prompt or AGENTS.md. Check your daily token usage.
 
 ---
 
@@ -37,6 +38,12 @@ Must-have features:
 - Offline evaluation: precision@k and hit rate@k on held-out purchases; golden set for the assistant
 Start with: folder structure, data models, API endpoint list with request and response schemas, and an architecture description.
 Do not write all features yet. Include a README skeleton and an AGENTS.md with commands and conventions.
+NEW (v4) baseline for every project:
+- AGENTS.md at the repo root: build, test and style commands, folders not to touch, "never put secrets in prompts".
+- Modernisation step: The starter notebook includes legacy_search(), an exact-word keyword search with global state. Write characterisation tests for it, then replace it with the hybrid search service behind the same interface, one verified step at a time.
+- docs/security_checklist.md mapped to the OWASP Top 10 for Agentic Applications (copy shared/templates/OWASP_Agentic_Checklist.md).
+- docs/vulnerability_report.md (copy shared/templates/Vulnerability_Report_Template.md).
+- Every model call logs input, output and reasoning tokens and an estimated cost (placeholder prices, labelled).
 ```
 
 ---
@@ -45,7 +52,7 @@ Do not write all features yet. Include a README skeleton and an AGENTS.md with c
 
 ```text
 Implement the AI core for ShopSmart.
-Approach: Embeddings for product descriptions; hybrid search with RRF (Day 23); item-item co-occurrence; grounded assistant with tool calls for price and stock (Days 22, 25).
+Approach: Embeddings for product descriptions; hybrid search with RRF (Day 22); item-item co-occurrence; grounded assistant with tool calls for price and stock (Days 18, 26).
 Requirements:
 - Every model call goes through one client with timeouts, retries with backoff, a fallback and JSON logging (request id, release, tokens, latency).
 - Facts such as prices, stock, availability, order details or numbers must come from the database or tools, never from the model.
@@ -73,6 +80,10 @@ For ShopSmart:
 2. Add input and output guardrails (injection scan, PII redaction, allowlisted tools, human approval for risky actions where relevant).
 3. Extend the golden set to at least 20 items (include tricky and unanswerable cases and, where relevant, Japanese inputs) and add a quality gate
    script that exits with code 1 when thresholds fail. Add it to the CI pipeline.
+4. NEW (v4): Run bandit, pip-audit and npm audit; add them as CI gates. Log every finding in docs/vulnerability_report.md
+   (finding, tool, severity, file, fix, fixed by human or Codex-assisted, verified, evidence). Fill in docs/security_checklist.md
+   for the OWASP Top 10 for Agentic Applications with one line of evidence per item.
+5. NEW (v4): Finish the modernisation step: characterisation tests green before and after, one reviewed PR per step.
 ```
 
 ---
@@ -86,6 +97,9 @@ For ShopSmart:
 3. Add a monitoring view: requests, p95 latency, error rate, cost, and a quality signal (feedback or refusal rate), plus one drift or data quality check.
 4. Draft an 8 to 12 slide demo outline: problem, users, live demo script, results with numbers, limits, next steps.
 5. Write a runbook for the most likely production incident.
+6. NEW (v4): Write docs/token_cost_report.md: tokens and estimated cost per request and per 1,000 requests from the token log,
+   then apply one optimisation (prompt caching layout, context trimming, smaller model or routing) and show before and after.
+   Label every price as a placeholder.
 ```
 
 ---

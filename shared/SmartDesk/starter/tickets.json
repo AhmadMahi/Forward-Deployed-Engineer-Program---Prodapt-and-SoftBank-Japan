@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "customer": "Aiko Tanaka",
+    "category": "network",
+    "priority": "high",
+    "status": "open",
+    "body": "No mobile signal at home in Setagaya since Monday morning.",
+    "created_at": "2026-10-26T09:12:00"
+  },
+  {
+    "id": 2,
+    "customer": "Rahul Mehta",
+    "category": "billing",
+    "priority": "high",
+    "status": "open",
+    "body": "I was charged twice for my October unlimited plan.",
+    "created_at": "2026-10-26T10:05:00"
+  },
+  {
+    "id": 3,
+    "customer": "Kenji Sato",
+    "category": "account",
+    "priority": "medium",
+    "status": "open",
+    "body": "Cannot log in to the app after resetting my password.",
+    "created_at": "2026-10-26T11:30:00"
+  },
+  {
+    "id": 4,
+    "customer": "Priya Nair",
+    "category": "network",
+    "priority": "medium",
+    "status": "in_progress",
+    "body": "Mobile data is very slow in the evenings near Shibuya station.",
+    "created_at": "2026-10-26T18:45:00"
+  },
+  {
+    "id": 5,
+    "customer": "Yuki Watanabe",
+    "category": "billing",
+    "priority": "low",
+    "status": "closed",
+    "body": "Please explain the roaming charge on my September invoice.",
+    "created_at": "2026-10-25T08:20:00"
+  },
+  {
+    "id": 6,
+    "customer": "Arjun Rao",
+    "category": "account",
+    "priority": "high",
+    "status": "open",
+    "body": "My SIM was blocked after I travelled abroad. I need it active today.",
+    "created_at": "2026-10-27T07:55:00"
+  },
+  {
+    "id": 7,
+    "customer": "Mei Kobayashi",
+    "category": "other",
+    "priority": "low",
+    "status": "open",
+    "body": "Do you have a store open on Sunday in Yokohama?",
+    "created_at": "2026-10-27T09:10:00"
+  },
+  {
+    "id": 8,
+    "customer": "Sanjay Iyer",
+    "category": "network",
+    "priority": "high",
+    "status": "open",
+    "body": "5G keeps dropping to 4G on my new phone in the office.",
+    "created_at": "2026-10-27T13:40:00"
+  },
+  {
+    "id": 9,
+    "customer": "Haruto Suzuki",
+    "category": "billing",
+    "priority": "medium",
+    "status": "in_progress",
+    "body": "I want a refund for the data pack that never activated.",
+    "created_at": "2026-10-27T15:00:00"
+  },
+  {
+    "id": 10,
+    "customer": "Ananya Gupta",
+    "category": "account",
+    "priority": "low",
+    "status": "closed",
+    "body": "How do I change the email address on my account?",
+    "created_at": "2026-10-24T16:25:00"
+  },
+  {
+    "id": 11,
+    "customer": "Sora Yamamoto",
+    "category": "network",
+    "priority": "medium",
+    "status": "open",
+    "body": "Calls drop after about two minutes when I am on the train.",
+    "created_at": "2026-10-28T08:05:00"
+  },
+  {
+    "id": 12,
+    "customer": "Vikram Shah",
+    "category": "billing",
+    "priority": "high",
+    "status": "open",
+    "body": "My bill doubled this month and nobody answers the phone.",
+    "created_at": "2026-10-28T10:15:00"
+  },
+  {
+    "id": 13,
+    "customer": "Rin Takahashi",
+    "category": "other",
+    "priority": "medium",
+    "status": "open",
+    "body": "I would like to upgrade to a family plan with three lines.",
+    "created_at": "2026-10-28T12:00:00"
+  },
+  {
+    "id": 14,
+    "customer": "Neha Kulkarni",
+    "category": "account",
+    "priority": "medium",
+    "status": "open",
+    "body": "Two-factor codes by SMS are not arriving on my number.",
+    "created_at": "2026-10-28T14:35:00"
+  },
+  {
+    "id": 15,
+    "customer": "Daiki Ito",
+    "category": "network",
+    "priority": "low",
+    "status": "closed",
+    "body": "Home router shows a red light after the storm last night.",
+    "created_at": "2026-10-23T21:10:00"
+  }
+]

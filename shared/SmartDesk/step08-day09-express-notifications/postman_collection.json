@@ -1,0 +1,18 @@
+{
+  "info": { "name": "SmartDesk notifications", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "variable": [{ "key": "base", "value": "http://localhost:3001" }],
+  "item": [
+    { "name": "Health", "request": { "method": "GET", "url": "{{base}}/health" },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('200', () => pm.response.to.have.status(200));"] } }] },
+    { "name": "Create notification", "request": { "method": "POST", "url": "{{base}}/notifications",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"ticketId\": 1, \"channel\": \"sms\", \"message\": \"Engineer booked for tomorrow\"}" } },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('201', () => pm.response.to.have.status(201));", "pm.collectionVariables.set('id', pm.response.json().id);"] } }] },
+    { "name": "Reject bad channel", "request": { "method": "POST", "url": "{{base}}/notifications",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\"ticketId\": 1, \"channel\": \"fax\", \"message\": \"x\"}" } },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('400', () => pm.response.to.have.status(400));"] } }] },
+    { "name": "Mark sent", "request": { "method": "POST", "url": "{{base}}/notifications/{{id}}/send" },
+      "event": [{ "listen": "test", "script": { "exec": ["pm.test('sent', () => pm.expect(pm.response.json().status).to.eql('sent'));"] } }] }
+  ]
+}

@@ -1,0 +1,7 @@
+# customer;msisdn;category;priority;body
+aiko tanaka;09012345678;network;1;No signal at home since Monday
+ravi kumar;+819098765432;billing;2;Charged twice for November plan
+mei suzuki;08011112222;account;3;Cannot log in after password reset
+ken watanabe;07033334444;;2;Roaming not working in Singapore; tried restart
+bad line without enough fields
+sara lee;09055556666;billing;9;Refund still not received

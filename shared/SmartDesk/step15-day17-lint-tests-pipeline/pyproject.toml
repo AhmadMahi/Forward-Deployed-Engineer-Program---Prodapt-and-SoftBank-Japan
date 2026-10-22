@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "S"]     # S = bandit-style security rules
+ignore = ["S101"]                       # allow assert in tests
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

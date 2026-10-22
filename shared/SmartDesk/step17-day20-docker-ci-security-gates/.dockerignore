@@ -1,0 +1,8 @@
+.env
+.git
+__pycache__/
+*.pyc
+node_modules/
+tests/
+*.db
+token_log.csv
